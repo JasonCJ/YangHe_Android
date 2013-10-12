@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:background="@drawable/tab_down_frame_gray" >
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/tabbar_yanghe_click"
+        android:textColor="@color/blue"
+        android:layout_margin="10dp"
+        android:gravity="center_vertical"
+        android:text="@string/app_name"
+        android:textSize="20sp"/>
+    <View android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/imaginary_line_gray"/>
+    
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:padding="8dp"
+        android:textColor="@color/gray"
+        android:text="@string/exit_App"/>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+       	android:orientation="horizontal">
+        <Button 
+            android:id="@+id/ok_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_all_blue_gray_selector"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/white"
+            android:layout_weight="1"
+            android:text="@string/dialog_ok"/>
+        <Button 
+            android:id="@+id/cancel_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/white"
+            android:layout_weight="1"
+            android:background="@drawable/btn_all_blue_gray_selector"
+            android:text="@string/dialog_cancle"/>
+    </LinearLayout>
+</LinearLayout>

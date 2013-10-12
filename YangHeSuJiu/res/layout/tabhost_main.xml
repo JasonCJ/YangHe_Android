@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/relativelayout"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+        </RelativeLayout>
+
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="@drawable/tab_down_frame_gray"
+            android:orientation="horizontal" android:baselineAligned="false">
+
+            <LinearLayout
+                android:id="@+id/commodity_Layout"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center" >
+
+                <ImageView
+                    android:id="@+id/commodity_ImageView"
+                    android:layout_width="37dp"
+                    android:layout_height="30dp"
+                    android:layout_margin="12dp"
+                    android:background="@drawable/tabbar_commodity" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/order_form_Layout"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/order_form_count"
+                    android:layout_width="25dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/drink_list_one"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+
+                <ImageView
+                    android:id="@+id/order_form_ImageView"
+                    android:layout_width="37dp"
+                    android:layout_height="30dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/tabbar_order_form" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/yanghe_Layout"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center" >
+                <ImageView 
+                    android:id="@+id/yanghe_ImageView"
+                    android:layout_width="37dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/tabbar_yanghe"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/personage_Layout"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center" >
+                <ImageView
+                    android:id="@+id/personage_ImageView"
+                    android:layout_width="37dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/tabbar_personage" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/scan_Layout"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center" >
+                <ImageView
+                    android:id="@+id/scan_ImageView"
+                    android:layout_width="37dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/tabbar_order" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</TabHost>

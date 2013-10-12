@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">及时送</string>
+    
+    <string name="dialog_title_tip">提示</string>
+    <string name="dialog_ok">确定</string>
+    <string name="dialog_no_netword">没有网络，请设置您的网络!</string>
+    <string name="dialog_cancle">取消</string>
+    
+    <string name="ok_text">确定</string>
+    <string name="cancle_text">取消</string>
+    
+    <string name="error_403">密码错误</string>
+	<string name="error_501">图片已经收藏过</string>
+	<string name="error_502">用户已经 关注过</string>
+	<string name="error_503">图片不存在</string>
+	<string name="error_504">图片上传失败</string>
+	<string name="error_601">已存在此用户名</string>
+	<string name="error_602">用户名和密码有一个为空</string>
+	<string name="error_603">用户不存在</string>
+	<string name="error_604">自己无法关注自己</string>
+	<string name="error_null">服务器返回错误信息不全%s</string>
+	
+	<string name="common_network_exception">网络环境不理想，请检查网络</string>
+    <string name="common_request_error">请求错误</string>
+    <string name="common_request_timeout">请求超时</string>
+    <string name="common_network_cancel">请求被取消</string>
+    <string name="exit_App">确定要退出及时送吗?</string>
+    <string name="order_button_textView">订购</string>
+
+</resources>

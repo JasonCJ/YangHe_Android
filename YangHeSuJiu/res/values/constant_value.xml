@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- HTTP请求相关 -->
+    <!-- <item name="server_url" type="string">http://m.service.92dc.com/client.axd?t=</item> -->
+    
+    <!-- <item name="server_url" type="string">http://192.168.0.139:3000/v1/nail_art/</item> -->
+    <item name="server_url" type="string">http://121.199.50.183/v1/nail_art/</item>
+    
+    
+    <item name="time_out" type="integer">20000</item>
+
+    <!-- HTTP请求方式 -->
+    <item name="post" type="id"/>
+    <item name="get" type="id"/>
+    <!-- 用户登录 -->
+    <item name="login" type="id"></item>
+  
+    <!-- 查看用户信息 -->
+    <item name="search_user_info" type="id"></item>
+    
+    <!-- 用户注册 -->
+    <item name="register" type="id"></item>
+    
+    
+</resources>

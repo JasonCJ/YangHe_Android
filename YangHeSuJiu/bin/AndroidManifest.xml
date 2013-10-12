@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yanghe.sujiu"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:name="com.yanghe.sujiu.MainApp"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.yanghe.sujiu.activity.StartActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.yanghe.sujiu.activity.MainTabHost"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.yanghe.sujiu.activity.CommodityActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.yanghe.sujiu.activity.OrderFormActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.yanghe.sujiu.activity.YangheActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.yanghe.sujiu.activity.PersonageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.yanghe.sujiu.activity.ScanActivity"
+            android:screenOrientation="portrait" />
+        
+        <activity
+            android:name="com.yanghe.sujiu.activity.DetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.yanghe.sujiu.activity.LogInActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.yanghe.sujiu.activity.RegisterActivity"
+            android:screenOrientation="portrait" />
+        
+    </application>
+    
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="false"
+        android:resizeable="true"
+        android:smallScreens="true" />
+
+</manifest>

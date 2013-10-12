@@ -1,0 +1,46 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+	
+    <color name="white">#ffffff</color>
+    <color name="red">#ff0000</color>
+    <color name="black">#000000</color>
+    <color name="blue">#008CEB</color>
+    <color name="transparent">#00000000</color>
+    <color name="gray">#505050</color>
+    
+    <!-- (浅灰)Tabbar顶上线：#b2b2b2 -->
+    <color name="home_gray">#b2b2b2</color>
+    <!-- (浅蓝)1、价格和按钮里字颜色：#0079fe,  (深蓝)2、优惠背景颜色：#718ade -->
+    <color name="drink_list_one">#0079fe</color>
+    <color name="drink_list_two">#718ade</color>
+    
+    <!-- (红色)价格颜色：#ff4800 -->
+    <color name="price_color">#ff4800</color>
+    
+    <!-- (浅蓝色)字颜色：#0079fe -->
+    <color name="blue_text_color">#0079fe</color>
+    
+    <!-- 文字框描边颜色：#e3e3e3 -->
+    <color name="gray_frame_color">#e3e3e3</color>
+    
+    <color name="tran_gray">#60000000</color>
+    
+   <!--  <color name="tran_gray">#60000000</color>
+    <color name="gray">#505050</color>
+    <color name="light_gray">#cacaca</color>
+    <color name="orange">#FF792C</color>
+    <color name="green">#00AF7E</color>
+    <color name="gray_deep">#282828</color>
+    <color name="gray_slight">#ededed</color>
+
+    <color name="bg_fliter_item_select">#FF8381</color>
+    <drawable name="orange">#EEFF792C</drawable>
+    <drawable name="blue">#AA008CEB</drawable>
+    <color name="bg_fliter">#252526</color>
+    <color name="bg_crop">#242424</color>
+    <color name="crop_txt_color">#D3D3D3</color>
+    <color name="white_transparent">#e0ffffff</color>
+    <color name="item_shape_line">#ffcccccc</color>
+    <color name="item_selected">#ff419de4</color>
+    <color name="alpha_99_white">#99ffffff</color>
+    <color name="dark_gray">#666666</color> -->
+</resources>

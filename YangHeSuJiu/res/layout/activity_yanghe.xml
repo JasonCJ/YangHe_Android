@@ -1,0 +1,91 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:background="@android:color/white" >
+
+        <ProgressBar
+            android:id="@+id/ad_progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+
+        <com.yanghe.sujiu.view.AdvGallery
+            android:id="@+id/activity_main_gallery"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:soundEffectsEnabled="false" />
+
+        <FrameLayout
+            android:id="@+id/adv_bottom_relativelayout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/home_adview_bottom_ind_height"
+            android:layout_gravity="bottom" >
+
+            <LinearLayout
+                android:id="@+id/adv_indicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal" >
+            </LinearLayout>
+        </FrameLayout>
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="2.5dp"
+        android:paddingRight="2.5dp" >
+
+        <ImageButton
+            android:id="@+id/yanghe_activity_imgbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2.5dp"
+            android:layout_marginRight="2.5dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_home_activity_selector"
+            android:contentDescription="@string/app_name" />
+
+        <ImageButton
+            android:id="@+id/yanghe_product_imgbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2.5dp"
+            android:layout_marginRight="2.5dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_home_merchandise_selector"
+            android:contentDescription="@string/app_name" />
+
+        <ImageButton
+            android:id="@+id/yanghe_yanghe_imgbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2.5dp"
+            android:layout_marginRight="2.5dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_home_yanghe_selector"
+            android:contentDescription="@string/app_name" />
+
+        <ImageButton
+            android:id="@+id/yanghe_about_imgbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2.5dp"
+            android:layout_marginRight="2.5dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_home_about_selector"
+            android:contentDescription="@string/app_name" />
+    </LinearLayout>
+
+</LinearLayout>
